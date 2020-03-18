@@ -12,7 +12,7 @@ import ComponentsPrime from "../views/components/Prime";
 import ComponentsTabsPrime from "../views/components/custom/TabsPrime";
 import ComponentsTabsElementUI from "../views/components/custom/TabsElementUI";
 import CalanderElementUI from "../views/components/custom/CalanderElementUI";
-
+import WizardElementUI from "../views/components/custom/WizardElementUI";
 
 import FormsIndex from "../views/forms/Index";
 import ValidationForm from "../views/forms/ValidationForm";
@@ -33,7 +33,7 @@ export default  [
         { path: 'custom/tabs-prime', component: ComponentsTabsPrime },
         { path: 'custom/tabs-elementui', component: ComponentsTabsElementUI },
         { path: 'custom/calander-elementui', component: CalanderElementUI },
-
+        { path: 'custom/wizard-elementui', component: WizardElementUI },
     ] },
     { path: '/forms', component: FormsIndex, children:[
         { path: '', component: ValidationForm },

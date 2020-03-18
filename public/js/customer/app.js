@@ -3012,6 +3012,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -3193,6 +3207,67 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
       }
 
       this.active = activeArray;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      active: 0
+    };
+  },
+  methods: {
+    next: function next() {
+      if (this.active++ > 2) this.active = 0;
     }
   }
 });
@@ -4193,6 +4268,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -4744,6 +4829,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 // module
 exports.push([module.i, "\n.inline{ display:inline-block;}\n.p-dropdown {\r\n\twidth: 12em;\n}\n.p-dropdown-car-option {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\n}\n.p-dropdown-car-option img {\r\n    margin-right: 0.5em;\r\n    width: 24px;\n}\n.p-dropdown-car-option span {\r\n    margin-top: .125em;\n}\n.p-multiselect {\r\n\tmin-width: 15em;\n}\n.p-multiselect-car-option {\r\n\tdisplay: inline-block;\r\n\tvertical-align: middle;\n}\n.p-multiselect-car-option img {\r\n\t\tvertical-align: middle;\r\n\t\tmargin-right: .5em;\r\n\t\twidth: 24px;\n}\n.p-multiselect-car-option span {\r\n\t\tmargin-top: .125em;\n}\n.p-multiselect-car-token,\r\n.p-multiselect-empty-car-token {\r\n\tpadding: 2px 4px;\r\n\tmargin: 0 0.286em 0 0;\r\n\tdisplay: inline-block;\r\n\tvertical-align: middle;\r\n\theight: 1.857em;\r\n\tborder-radius: 3px;\n}\n.p-multiselect-car-token img {\r\n\twidth: 20px;\r\n\tvertical-align: middle;\r\n\tmargin-right: .5em\n}\n.p-multiselect-car-token {\r\n\tbackground: #007ad9;\r\n\tcolor: #ffffff;\n}\n.p-multiselect-empty-car-token {\r\n\tbackground: #d95f00;\r\n\tcolor: #ffffff;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.is-selected {\r\n    color: #1989FA;\n}\r\n", ""]);
 
 // exports
 
@@ -24896,6 +25000,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader??ref--5-1!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalanderElementUI.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/customers/View.vue?vue&type=style&index=0&lang=css&":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/views/customers/View.vue?vue&type=style&index=0&lang=css& ***!
@@ -31855,7 +31989,41 @@ var render = function() {
           },
           expression: "value"
         }
-      })
+      }),
+      _vm._v(" "),
+      _c("hr"),
+      _vm._v(" "),
+      _c("el-calendar", {
+        scopedSlots: _vm._u([
+          {
+            key: "dateCell",
+            fn: function(ref) {
+              var date = ref.date
+              var data = ref.data
+              return [
+                _c("p", { class: data.isSelected ? "is-selected" : "" }, [
+                  _vm._v(
+                    "\n      " +
+                      _vm._s(
+                        data.day
+                          .split("-")
+                          .slice(1)
+                          .join("-")
+                      ) +
+                      " " +
+                      _vm._s(data.isSelected ? "✔️" : "") +
+                      "\n    "
+                  )
+                ])
+              ]
+            }
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c("hr"),
+      _vm._v(" "),
+      _c("el-calendar", { attrs: { range: ["2020-02-04", "2020-02-24"] } })
     ],
     1
   )
@@ -32194,6 +32362,119 @@ var render = function() {
     ],
     1
   )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=template&id=11f402de&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=template&id=11f402de& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _vm.active < 3
+      ? _c(
+          "div",
+          [
+            _c(
+              "el-steps",
+              { attrs: { active: _vm.active, "finish-status": "success" } },
+              [
+                _c("el-step", {
+                  attrs: {
+                    title: "Step 1",
+                    icon: "el-icon-edit",
+                    description: "Step1"
+                  }
+                }),
+                _vm._v(" "),
+                _c("el-step", {
+                  attrs: {
+                    title: "Step 2",
+                    icon: "el-icon-upload",
+                    description: "Step1"
+                  }
+                }),
+                _vm._v(" "),
+                _c("el-step", {
+                  attrs: {
+                    title: "Step 3",
+                    icon: "el-icon-picture",
+                    description: "Step1"
+                  }
+                })
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _vm.active == 0
+              ? _c("el-card", [
+                  _c("h3", [_vm._v("Step 1 start")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("this is step 1")])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.active == 1
+              ? _c("el-card", [
+                  _c("h3", [_vm._v("Step 2 start")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Hello with step 2")])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.active == 2
+              ? _c("el-card", [
+                  _c("h3", [_vm._v("Step 3 start")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Great! you are now on step 3")])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _c(
+              "el-button",
+              {
+                staticStyle: { "margin-top": "12px" },
+                on: { click: _vm.next }
+              },
+              [_vm._v("Next step")]
+            )
+          ],
+          1
+        )
+      : _c(
+          "div",
+          [
+            _c("h3", [_vm._v("Steps Finish")]),
+            _vm._v(" "),
+            _c(
+              "el-button",
+              {
+                staticStyle: { "margin-top": "12px" },
+                on: { click: _vm.next }
+              },
+              [_vm._v("Reset")]
+            )
+          ],
+          1
+        )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -34178,6 +34459,47 @@ var render = function() {
                                           "span",
                                           { staticClass: "m-menu__link-text" },
                                           [_vm._v("Calander Element UI")]
+                                        )
+                                      ]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "li",
+                                  {
+                                    class:
+                                      _vm.$route.path ==
+                                      "/components/custom/wizard-elementui"
+                                        ? "m-menu__item m-menu__item--active"
+                                        : "m-menu__item",
+                                    attrs: { "aria-haspopup": "true" }
+                                  },
+                                  [
+                                    _c(
+                                      "router-link",
+                                      {
+                                        staticClass: "m-menu__link",
+                                        attrs: {
+                                          to:
+                                            "/components/custom/wizard-elementui"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "i",
+                                          {
+                                            staticClass:
+                                              "m-menu__link-bullet m-menu__link-bullet--dot"
+                                          },
+                                          [_c("span")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "span",
+                                          { staticClass: "m-menu__link-text" },
+                                          [_vm._v("Wizard Element UI")]
                                         )
                                       ]
                                     )
@@ -47967,8 +48289,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _views_components_custom_TabsPrime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../views/components/custom/TabsPrime */ "./resources/js/admin/views/components/custom/TabsPrime.vue");
 /* harmony import */ var _views_components_custom_TabsElementUI__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../views/components/custom/TabsElementUI */ "./resources/js/admin/views/components/custom/TabsElementUI.vue");
 /* harmony import */ var _views_components_custom_CalanderElementUI__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../views/components/custom/CalanderElementUI */ "./resources/js/admin/views/components/custom/CalanderElementUI.vue");
-/* harmony import */ var _views_forms_Index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../views/forms/Index */ "./resources/js/admin/views/forms/Index.vue");
-/* harmony import */ var _views_forms_ValidationForm__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../views/forms/ValidationForm */ "./resources/js/admin/views/forms/ValidationForm.vue");
+/* harmony import */ var _views_components_custom_WizardElementUI__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../views/components/custom/WizardElementUI */ "./resources/js/admin/views/components/custom/WizardElementUI.vue");
+/* harmony import */ var _views_forms_Index__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../views/forms/Index */ "./resources/js/admin/views/forms/Index.vue");
+/* harmony import */ var _views_forms_ValidationForm__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../views/forms/ValidationForm */ "./resources/js/admin/views/forms/ValidationForm.vue");
+
 
 
 
@@ -48024,16 +48348,19 @@ __webpack_require__.r(__webpack_exports__);
   }, {
     path: 'custom/calander-elementui',
     component: _views_components_custom_CalanderElementUI__WEBPACK_IMPORTED_MODULE_11__["default"]
+  }, {
+    path: 'custom/wizard-elementui',
+    component: _views_components_custom_WizardElementUI__WEBPACK_IMPORTED_MODULE_12__["default"]
   }]
 }, {
   path: '/forms',
-  component: _views_forms_Index__WEBPACK_IMPORTED_MODULE_12__["default"],
+  component: _views_forms_Index__WEBPACK_IMPORTED_MODULE_13__["default"],
   children: [{
     path: '',
-    component: _views_forms_ValidationForm__WEBPACK_IMPORTED_MODULE_13__["default"]
+    component: _views_forms_ValidationForm__WEBPACK_IMPORTED_MODULE_14__["default"]
   }, {
     path: 'validation',
-    component: _views_forms_ValidationForm__WEBPACK_IMPORTED_MODULE_13__["default"]
+    component: _views_forms_ValidationForm__WEBPACK_IMPORTED_MODULE_14__["default"]
   }]
 }]);
 
@@ -48431,7 +48758,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CalanderElementUI_vue_vue_type_template_id_373879b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalanderElementUI.vue?vue&type=template&id=373879b4& */ "./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=template&id=373879b4&");
 /* harmony import */ var _CalanderElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalanderElementUI.vue?vue&type=script&lang=js& */ "./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _CalanderElementUI_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CalanderElementUI.vue?vue&type=style&index=0&lang=css& */ "./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -48439,7 +48768,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _CalanderElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _CalanderElementUI_vue_vue_type_template_id_373879b4___WEBPACK_IMPORTED_MODULE_0__["render"],
   _CalanderElementUI_vue_vue_type_template_id_373879b4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -48468,6 +48797,22 @@ component.options.__file = "resources/js/admin/views/components/custom/CalanderE
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalanderElementUI.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader??ref--5-1!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalanderElementUI.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/CalanderElementUI.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CalanderElementUI_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -48640,6 +48985,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabsPrime_vue_vue_type_template_id_495dcfcd___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabsPrime_vue_vue_type_template_id_495dcfcd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/admin/views/components/custom/WizardElementUI.vue":
+/*!************************************************************************!*\
+  !*** ./resources/js/admin/views/components/custom/WizardElementUI.vue ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _WizardElementUI_vue_vue_type_template_id_11f402de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./WizardElementUI.vue?vue&type=template&id=11f402de& */ "./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=template&id=11f402de&");
+/* harmony import */ var _WizardElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WizardElementUI.vue?vue&type=script&lang=js& */ "./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _WizardElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _WizardElementUI_vue_vue_type_template_id_11f402de___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _WizardElementUI_vue_vue_type_template_id_11f402de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/admin/views/components/custom/WizardElementUI.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_WizardElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./WizardElementUI.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_WizardElementUI_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=template&id=11f402de&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=template&id=11f402de& ***!
+  \*******************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_WizardElementUI_vue_vue_type_template_id_11f402de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./WizardElementUI.vue?vue&type=template&id=11f402de& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/views/components/custom/WizardElementUI.vue?vue&type=template&id=11f402de&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_WizardElementUI_vue_vue_type_template_id_11f402de___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_WizardElementUI_vue_vue_type_template_id_11f402de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

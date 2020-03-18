@@ -150,6 +150,16 @@
                   </router-link>
                 </li>
 
+                 <li :class="$route.path=='/components/custom/wizard-elementui'? 'm-menu__item m-menu__item--active': 'm-menu__item'"
+                 aria-haspopup="true">
+                  <router-link to="/components/custom/wizard-elementui" class="m-menu__link">
+                    <i class="m-menu__link-bullet m-menu__link-bullet--dot">
+                      <span></span>
+                    </i>
+                    <span class="m-menu__link-text">Wizard Element UI</span>
+                  </router-link>
+                </li>
+
 												</ul>
 											</div>
 										</li>
