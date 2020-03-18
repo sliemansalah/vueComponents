@@ -30,6 +30,22 @@ import UserDetails from './views/users/Details'
 import MBadge from './components/metronic/base/MBadge.vue'
 import MProgress from './components/metronic/base/MProgress.vue'
 
+import FormsIndex from './views/forms/Index'
+import ValidationForm from './views/forms/ValidationForm'
+
+/* USE NGPRIME  Library*/
+import PText from 'primevue/inputtext';
+import PCheck from 'primevue/checkbox';
+import PClrPicker from 'primevue/colorpicker';
+import PDropdown from 'primevue/dropdown';
+import PInputMask from 'primevue/inputmask';
+import PInputSwitch from 'primevue/inputswitch';
+import PListBox from 'primevue/listbox';
+import PMultiSelect from 'primevue/multiselect';
+import PPassword from 'primevue/password';
+import PRadio from 'primevue/radiobutton';
+import PRating from 'primevue/rating';
+
 Vue.component('layout', Layout)
 
 Vue.component('appHeader', Header)
@@ -60,6 +76,23 @@ Vue.component('UserDetails', UserDetails)
 
 Vue.component('MBadge', MBadge)
 Vue.component('MProgress', MProgress)
+
+Vue.component('FormsIndex', FormsIndex)
+Vue.component('ValidationForm', ValidationForm)
+
+/* Prime Component */
+Vue.component('PText', PText);
+Vue.component('PCheck', PCheck);
+Vue.component('PClrPicker',PClrPicker)
+Vue.component('PDropdown',PDropdown)
+Vue.component('PInputMask',PInputMask)
+Vue.component('PInputSwitch',PInputSwitch)
+Vue.component('PListBox',PListBox)
+Vue.component('PMultiSelect',PMultiSelect)
+Vue.component('PPassword',PPassword)
+Vue.component('PRadio',PRadio)
+Vue.component('PRating',PRating)
+
 
 
 

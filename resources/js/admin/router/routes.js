@@ -9,6 +9,9 @@ import UserDetails from "../views/users/Details";
 import ComponentsIndex from "../views/components/Index";
 import ComponentsBase from "../views/components/Base";
 
+import FormsIndex from "../views/forms/Index";
+import ValidationForm from "../views/forms/ValidationForm";
+
 export default  [
     { path: '/', component: Dashboard },
     { path: '/customers', component: Index, children:[
@@ -21,5 +24,9 @@ export default  [
     { path: '/components', component: ComponentsIndex, children:[
         { path: '', component: ComponentsBase },
         { path: 'base', component: ComponentsBase },
+    ] },
+    { path: '/forms', component: FormsIndex, children:[
+        { path: '', component: ValidationForm },
+        { path: 'validation', component: ValidationForm },
     ] },
 ]

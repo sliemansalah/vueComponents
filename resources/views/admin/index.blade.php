@@ -25,6 +25,10 @@
         <!-- For DataTable -->
         <link href="{{asset('/')}}vendors/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
 
+        <link href="https://unpkg.com/primevue/resources/themes/nova-light/theme.css " rel="stylesheet">
+        <link href="https://unpkg.com/primevue/resources/primevue.min.css " rel="stylesheet">
+        <link href="https://unpkg.com/primeicons/primeicons.css " rel="stylesheet">
+
         <title>Metronic Vue CLI | Admin Panel</title>
   </head>
   <body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--fixed m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
@@ -37,6 +41,12 @@
     <!-- For DataTable -->
     <script src="{{asset('/')}}vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
     <script src="{{asset('/')}}vendors/custom/components/base/sweetalert2.js" type="text/javascript"></script>
+
+    <!-- For Validation Form --> 
+    <!-- <script src="{{asset('/')}}vendors/custom/crud/forms/validation/form-controls.js" type="text/javascript"></script> -->
+
+    <script src="https://unpkg.com/vue"></script>
+    <!-- <script src="https://unpkg.com/primevue/components/calendar/calendar.umd.min.js"></script> -->
 
 		<script src="{{ mix('js/admin/app.js') }}"></script>
   </body>
