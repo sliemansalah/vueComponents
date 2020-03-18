@@ -24,7 +24,7 @@
           
         <!-- For DataTable -->
         <link href="{{asset('/')}}vendors/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
-
+        <!-- Prime -->
         <link href="https://unpkg.com/primevue/resources/themes/nova-light/theme.css " rel="stylesheet">
         <link href="https://unpkg.com/primevue/resources/primevue.min.css " rel="stylesheet">
         <link href="https://unpkg.com/primeicons/primeicons.css " rel="stylesheet">
@@ -41,7 +41,7 @@
     <!-- For DataTable -->
     <script src="{{asset('/')}}vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
     <script src="{{asset('/')}}vendors/custom/components/base/sweetalert2.js" type="text/javascript"></script>
-    
+        
 		<script src="{{ mix('js/admin/app.js') }}"></script>
   </body>
 </html>

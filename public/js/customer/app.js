@@ -3335,11 +3335,132 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
-    return {};
+    return {
+      ruleForm: {
+        name: '',
+        region: '',
+        date1: '',
+        date2: '',
+        delivery: false,
+        type: [],
+        resource: '',
+        desc: ''
+      },
+      rules: {
+        name: [{
+          required: true,
+          message: 'Please input Activity name',
+          trigger: 'blur'
+        }, {
+          min: 3,
+          max: 5,
+          message: 'Length should be 3 to 5',
+          trigger: 'blur'
+        }],
+        region: [{
+          required: true,
+          message: 'Please select Activity zone',
+          trigger: 'change'
+        }],
+        date1: [{
+          type: 'date',
+          required: true,
+          message: 'Please pick a date',
+          trigger: 'change'
+        }],
+        date2: [{
+          type: 'date',
+          required: true,
+          message: 'Please pick a time',
+          trigger: 'change'
+        }],
+        type: [{
+          type: 'array',
+          required: true,
+          message: 'Please select at least one activity type',
+          trigger: 'change'
+        }],
+        resource: [{
+          required: true,
+          message: 'Please select activity resource',
+          trigger: 'change'
+        }],
+        desc: [{
+          required: true,
+          message: 'Please input activity form',
+          trigger: 'blur'
+        }]
+      }
+    };
   },
-  methods: {}
+  methods: {
+    submitForm: function submitForm(formName) {
+      this.$refs[formName].validate(function (valid) {
+        if (valid) {
+          alert('submit!');
+        } else {
+          console.log('error submit!!');
+          return false;
+        }
+      });
+    },
+    resetForm: function resetForm(formName) {
+      this.$refs[formName].resetFields();
+    }
+  }
 });
 
 /***/ }),
@@ -30944,7 +31065,277 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n  test\n  ")])
+  return _c(
+    "div",
+    [
+      _c(
+        "el-card",
+        [
+          _c("h3", [_vm._v("This Form By Element UI")]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c(
+            "el-form",
+            {
+              ref: "ruleForm",
+              staticClass: "demo-ruleForm",
+              attrs: {
+                model: _vm.ruleForm,
+                rules: _vm.rules,
+                "label-width": "120px"
+              }
+            },
+            [
+              _c(
+                "el-form-item",
+                { attrs: { label: "Activity name", prop: "name" } },
+                [
+                  _c("el-input", {
+                    model: {
+                      value: _vm.ruleForm.name,
+                      callback: function($$v) {
+                        _vm.$set(_vm.ruleForm, "name", $$v)
+                      },
+                      expression: "ruleForm.name"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "el-form-item",
+                { attrs: { label: "Activity zone", prop: "region" } },
+                [
+                  _c(
+                    "el-select",
+                    {
+                      attrs: { placeholder: "Activity zone" },
+                      model: {
+                        value: _vm.ruleForm.region,
+                        callback: function($$v) {
+                          _vm.$set(_vm.ruleForm, "region", $$v)
+                        },
+                        expression: "ruleForm.region"
+                      }
+                    },
+                    [
+                      _c("el-option", {
+                        attrs: { label: "Zone one", value: "shanghai" }
+                      }),
+                      _vm._v(" "),
+                      _c("el-option", {
+                        attrs: { label: "Zone two", value: "beijing" }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "el-form-item",
+                { attrs: { label: "Activity time", required: "" } },
+                [
+                  _c(
+                    "el-col",
+                    { attrs: { span: 11 } },
+                    [
+                      _c(
+                        "el-form-item",
+                        { attrs: { prop: "date1" } },
+                        [
+                          _c("el-date-picker", {
+                            staticStyle: { width: "100%" },
+                            attrs: { type: "date", placeholder: "Pick a date" },
+                            model: {
+                              value: _vm.ruleForm.date1,
+                              callback: function($$v) {
+                                _vm.$set(_vm.ruleForm, "date1", $$v)
+                              },
+                              expression: "ruleForm.date1"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("el-col", { staticClass: "line", attrs: { span: 2 } }, [
+                    _vm._v("-")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "el-col",
+                    { attrs: { span: 11 } },
+                    [
+                      _c(
+                        "el-form-item",
+                        { attrs: { prop: "date2" } },
+                        [
+                          _c("el-time-picker", {
+                            staticStyle: { width: "100%" },
+                            attrs: { placeholder: "Pick a time" },
+                            model: {
+                              value: _vm.ruleForm.date2,
+                              callback: function($$v) {
+                                _vm.$set(_vm.ruleForm, "date2", $$v)
+                              },
+                              expression: "ruleForm.date2"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "el-form-item",
+                { attrs: { label: "Instant delivery", prop: "delivery" } },
+                [
+                  _c("el-switch", {
+                    model: {
+                      value: _vm.ruleForm.delivery,
+                      callback: function($$v) {
+                        _vm.$set(_vm.ruleForm, "delivery", $$v)
+                      },
+                      expression: "ruleForm.delivery"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "el-form-item",
+                { attrs: { label: "Activity type", prop: "type" } },
+                [
+                  _c(
+                    "el-checkbox-group",
+                    {
+                      model: {
+                        value: _vm.ruleForm.type,
+                        callback: function($$v) {
+                          _vm.$set(_vm.ruleForm, "type", $$v)
+                        },
+                        expression: "ruleForm.type"
+                      }
+                    },
+                    [
+                      _c("el-checkbox", {
+                        attrs: { label: "Online activities", name: "type" }
+                      }),
+                      _vm._v(" "),
+                      _c("el-checkbox", {
+                        attrs: { label: "Promotion activities", name: "type" }
+                      }),
+                      _vm._v(" "),
+                      _c("el-checkbox", {
+                        attrs: { label: "Offline activities", name: "type" }
+                      }),
+                      _vm._v(" "),
+                      _c("el-checkbox", {
+                        attrs: { label: "Simple brand exposure", name: "type" }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "el-form-item",
+                { attrs: { label: "Resources", prop: "resource" } },
+                [
+                  _c(
+                    "el-radio-group",
+                    {
+                      model: {
+                        value: _vm.ruleForm.resource,
+                        callback: function($$v) {
+                          _vm.$set(_vm.ruleForm, "resource", $$v)
+                        },
+                        expression: "ruleForm.resource"
+                      }
+                    },
+                    [
+                      _c("el-radio", { attrs: { label: "Sponsorship" } }),
+                      _vm._v(" "),
+                      _c("el-radio", { attrs: { label: "Venue" } })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "el-form-item",
+                { attrs: { label: "Activity form", prop: "desc" } },
+                [
+                  _c("el-input", {
+                    attrs: { type: "textarea" },
+                    model: {
+                      value: _vm.ruleForm.desc,
+                      callback: function($$v) {
+                        _vm.$set(_vm.ruleForm, "desc", $$v)
+                      },
+                      expression: "ruleForm.desc"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "el-form-item",
+                [
+                  _c(
+                    "el-button",
+                    {
+                      attrs: { type: "primary" },
+                      on: {
+                        click: function($event) {
+                          return _vm.submitForm("ruleForm")
+                        }
+                      }
+                    },
+                    [_vm._v("Create")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "el-button",
+                    {
+                      on: {
+                        click: function($event) {
+                          return _vm.resetForm("ruleForm")
+                        }
+                      }
+                    },
+                    [_vm._v("Reset")]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
