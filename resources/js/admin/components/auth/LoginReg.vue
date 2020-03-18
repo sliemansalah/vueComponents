@@ -71,14 +71,32 @@ export default {
     methods:{
         login(){
             axios.post('https://reqres.in/api/login',this.user).then(res=>{
+				console.log(res.data.token)
               if(res.data.token) {
-                  localStorage.setItem('user',this.user.email);
-                  this.$router.go(0)
+				  localStorage.setItem('user',this.user.email);
+				   this.$notify({
+          title: 'Login',
+          message: 'Login SuccessFully',
+          type: 'success'
+        });
+                setTimeout(() => {
+					  this.$router.go(0)
+				}, 1000);
               }
             }).catch(err=>{
-                console.log('error',err)
+					   this.$notify.error({
+          title: 'Login',
+          message: 'Login Failed',
+        });
             })
-        }
+		},
+		register(){
+			 this.$notify({
+          title: 'Register',
+          dangerouslyUseHTMLString: true,
+          message: '<strong>Register Function <i>Not Ready</i> </strong>'
+        });
+		}
 	},
 }
 </script>

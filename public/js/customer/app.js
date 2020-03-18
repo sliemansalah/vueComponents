@@ -1984,13 +1984,33 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('https://reqres.in/api/login', this.user).then(function (res) {
+        console.log(res.data.token);
+
         if (res.data.token) {
           localStorage.setItem('user', _this.user.email);
 
-          _this.$router.go(0);
+          _this.$notify({
+            title: 'Login',
+            message: 'Login SuccessFully',
+            type: 'success'
+          });
+
+          setTimeout(function () {
+            _this.$router.go(0);
+          }, 1000);
         }
       })["catch"](function (err) {
-        console.log('error', err);
+        _this.$notify.error({
+          title: 'Login',
+          message: 'Login Failed'
+        });
+      });
+    },
+    register: function register() {
+      this.$notify({
+        title: 'Register',
+        dangerouslyUseHTMLString: true,
+        message: '<strong>Register Function <i>Not Ready</i> </strong>'
       });
     }
   }
