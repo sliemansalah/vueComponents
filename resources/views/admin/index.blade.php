@@ -41,13 +41,7 @@
     <!-- For DataTable -->
     <script src="{{asset('/')}}vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
     <script src="{{asset('/')}}vendors/custom/components/base/sweetalert2.js" type="text/javascript"></script>
-
-    <!-- For Validation Form --> 
-    <!-- <script src="{{asset('/')}}vendors/custom/crud/forms/validation/form-controls.js" type="text/javascript"></script> -->
-
-    <script src="https://unpkg.com/vue"></script>
-    <!-- <script src="https://unpkg.com/primevue/components/calendar/calendar.umd.min.js"></script> -->
-
+    
 		<script src="{{ mix('js/admin/app.js') }}"></script>
   </body>
 </html>

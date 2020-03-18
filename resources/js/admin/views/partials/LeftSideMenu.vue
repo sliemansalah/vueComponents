@@ -106,6 +106,15 @@
                     <span class="m-menu__link-text">Base</span>
                   </router-link>
                 </li>
+                  <li :class="$route.path=='/components/prime'? 'm-menu__item m-menu__item--active': 'm-menu__item'"
+                 aria-haspopup="true">
+                  <router-link to="/components/prime" class="m-menu__link">
+                    <i class="m-menu__link-bullet m-menu__link-bullet--dot">
+                      <span></span>
+                    </i>
+                    <span class="m-menu__link-text">Prime</span>
+                  </router-link>
+                </li>
               </ul>
             </div>
           </li>
