@@ -47,6 +47,9 @@ import PMultiSelect from 'primevue/multiselect';
 import PPassword from 'primevue/password';
 import PRadio from 'primevue/radiobutton';
 import PRating from 'primevue/rating';
+import PTabView from 'primevue/tabview';
+import PTabPanel from 'primevue/tabpanel';
+import PButton from 'primevue/button';
 
 Vue.component('layout', Layout)
 
@@ -94,6 +97,11 @@ Vue.component('PMultiSelect',PMultiSelect)
 Vue.component('PPassword',PPassword)
 Vue.component('PRadio',PRadio)
 Vue.component('PRating',PRating)
+Vue.component('PTabView',PTabView)
+Vue.component('PTabPanel',PTabPanel)
+Vue.component('PButton',PButton)
+
+
 
 
 

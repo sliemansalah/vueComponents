@@ -9,6 +9,10 @@ import UserDetails from "../views/users/Details";
 import ComponentsIndex from "../views/components/Index";
 import ComponentsBase from "../views/components/Base";
 import ComponentsPrime from "../views/components/Prime";
+import ComponentsTabsPrime from "../views/components/custom/TabsPrime";
+import ComponentsTabsElementUI from "../views/components/custom/TabsElementUI";
+import CalanderElementUI from "../views/components/custom/CalanderElementUI";
+
 
 import FormsIndex from "../views/forms/Index";
 import ValidationForm from "../views/forms/ValidationForm";
@@ -26,6 +30,10 @@ export default  [
         { path: '', component: ComponentsBase },
         { path: 'base', component: ComponentsBase },
         { path: 'prime', component: ComponentsPrime },
+        { path: 'custom/tabs-prime', component: ComponentsTabsPrime },
+        { path: 'custom/tabs-elementui', component: ComponentsTabsElementUI },
+        { path: 'custom/calander-elementui', component: CalanderElementUI },
+
     ] },
     { path: '/forms', component: FormsIndex, children:[
         { path: '', component: ValidationForm },
