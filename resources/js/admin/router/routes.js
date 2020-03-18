@@ -6,6 +6,9 @@ import UsersIndex from "../views/users/Index";
 import UsersView from "../views/users/View";
 import UserDetails from "../views/users/Details";
 
+import ComponentsIndex from "../views/components/Index";
+import ComponentsBase from "../views/components/Base";
+
 export default  [
     { path: '/', component: Dashboard },
     { path: '/customers', component: Index, children:[
@@ -14,5 +17,9 @@ export default  [
     { path: '/users', component: UsersIndex, children:[
         { path: '', component: UsersView },
         { path: ':id/details', component: UserDetails },
+    ] },
+    { path: '/components', component: ComponentsIndex, children:[
+        { path: '', component: ComponentsBase },
+        { path: 'base', component: ComponentsBase },
     ] },
 ]

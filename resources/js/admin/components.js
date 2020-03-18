@@ -26,6 +26,10 @@ import UsersIndex from './views/users/Index'
 import ViewUsers from './views/users/View'
 import UserDetails from './views/users/Details'
 
+
+import MBadge from './components/metronic/base/MBadge.vue'
+import MProgress from './components/metronic/base/MProgress.vue'
+
 Vue.component('layout', Layout)
 
 Vue.component('appHeader', Header)
@@ -53,5 +57,9 @@ Vue.component('LoginReg', LoginReg)
 Vue.component('UsersIndex', UsersIndex)
 Vue.component('ViewUsers', ViewUsers)
 Vue.component('UserDetails', UserDetails)
+
+Vue.component('MBadge', MBadge)
+Vue.component('MProgress', MProgress)
+
 
 
