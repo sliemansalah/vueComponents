@@ -91,11 +91,24 @@ export default {
             })
 		},
 		register(){
-			 this.$notify({
-          title: 'Register',
-          dangerouslyUseHTMLString: true,
-          message: '<strong>Register Function <i>Not Ready</i> </strong>'
-        });
+			 axios.post('https://reqres.in/api/register',this.user).then(res=>{
+              if(res.data.token) {
+				  localStorage.setItem('user',this.user.email);
+				   this.$notify({
+         		   title: 'Register',
+         		   message: 'Register SuccessFully',
+         		   type: 'success'
+      			  });
+					setTimeout(() => {
+					  this.signIn - !this.signIn
+				}, 1000);
+			  }
+			 }).catch(err =>{
+				   this.$notify.error({
+					title: 'Register',
+					message: 'Register Failed',
+					});
+			 })
 		}
 	},
 }

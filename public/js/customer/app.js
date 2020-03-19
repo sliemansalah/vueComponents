@@ -2007,10 +2007,27 @@ __webpack_require__.r(__webpack_exports__);
       });
     },
     register: function register() {
-      this.$notify({
-        title: 'Register',
-        dangerouslyUseHTMLString: true,
-        message: '<strong>Register Function <i>Not Ready</i> </strong>'
+      var _this2 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('https://reqres.in/api/register', this.user).then(function (res) {
+        if (res.data.token) {
+          localStorage.setItem('user', _this2.user.email);
+
+          _this2.$notify({
+            title: 'Register',
+            message: 'Register SuccessFully',
+            type: 'success'
+          });
+
+          setTimeout(function () {
+            _this2.signIn - !_this2.signIn;
+          }, 1000);
+        }
+      })["catch"](function (err) {
+        _this2.$notify.error({
+          title: 'Register',
+          message: 'Register Failed'
+        });
       });
     }
   }
