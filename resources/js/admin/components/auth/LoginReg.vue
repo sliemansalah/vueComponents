@@ -100,7 +100,7 @@ export default {
          		   type: 'success'
       			  });
 					setTimeout(() => {
-					  this.signIn - !this.signIn
+					  this.signIn = !this.signIn
 				}, 1000);
 			  }
 			 }).catch(err =>{

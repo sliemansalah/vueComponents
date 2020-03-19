@@ -2020,7 +2020,7 @@ __webpack_require__.r(__webpack_exports__);
           });
 
           setTimeout(function () {
-            _this2.signIn - !_this2.signIn;
+            _this2.signIn = !_this2.signIn;
           }, 1000);
         }
       })["catch"](function (err) {
